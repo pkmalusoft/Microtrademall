@@ -1,0 +1,59 @@
+.recieved-message .message{
+      background: linear-gradient(90deg, rgb(73, 64, 154), rgb(131, 120, 222));
+      border-radius: 0px 10px 10px;
+      color: #fff;
+}
+
+.sent-message .message{
+      background-color: rgb(241, 241, 244);
+      border-radius: 10px 10px 0px;
+}
+
+.chat-box .sent-message{
+      justify-content: flex-end;
+      align-items: flex-end;
+}
+
+.chat-box li strong{
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.chat-box li{
+  display: flex;
+  flex-direction: column;
+}
+.chat-box li .inner{
+    max-width: 80%;
+    min-width: 80px;
+}
+
+.chat-box li .message{
+      margin-top: 4px;
+      padding: 12px;
+}
+
+.contacts li.active{
+  color: blue;
+}
+.contacts li{
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts li span:empty{
+  display: none;
+}
+
+.contacts li span{
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   display: inline-block;
+   line-height: 25px;
+   text-align: center;
+   background: blue;
+   color: #fff;
+}

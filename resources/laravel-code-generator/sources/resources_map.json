@@ -1,0 +1,18 @@
+[
+    {
+        "model-name": "Role",
+        "resource-file": "roles.json"
+    },
+    {
+        "model-name": "Plan",
+        "resource-file": "plans.json"
+    },
+    {
+        "model-name": "Service",
+        "resource-file": "services.json"
+    },
+    {
+        "model-name": "Blog",
+        "resource-file": "blogs.json"
+    }
+]

@@ -1,0 +1,1 @@
+alias php='/opt/alt/php73/usr/bin/php'
